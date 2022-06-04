@@ -7,7 +7,7 @@ for (var i = 1; i <= 21; i++) {
 function oocItPNG(oocImages) {
   var randOOCPNG = oocImages[Math.floor(Math.random() * oocImages.length)];
   var img = document.createElement("img");
-  var imgShortcut = `https://plextora.github.io/pulsus-ooc-gen/pulsus-ooc-imgs/${randOOCPNG}.png`;
+  var imgShortcut = `https://github.com/Plextora/pulsus-ooc-gen/raw/master/pulsus-occ-imgs/${randOOCPNG}.png`;
   console.log(imgShortcut);
   img.setAttribute("class", "img-fluid");
   img.src = imgShortcut;
